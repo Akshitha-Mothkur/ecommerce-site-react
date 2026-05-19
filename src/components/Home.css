@@ -1,0 +1,23 @@
+.outer{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    padding:20px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.item-card{
+    background-color: #becff6;
+    padding: 15px;
+    border-radius: 19px;
+    transition: transform 0.4s ease
+    border 0.4s ease;
+    color: rgb(43, 42, 42);
+
+    &:hover{
+        transform: scale(1.05); 
+        border: 2px solid #5c8af3;
+    }
+}
+
+

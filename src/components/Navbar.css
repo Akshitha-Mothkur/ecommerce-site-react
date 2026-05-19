@@ -1,0 +1,34 @@
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #354872;
+    padding:12px;
+}
+
+.navbar .webname h2{
+    font-size: 1.2rem;
+    margin-left:30px
+}
+
+.navbar .nav-items ul{
+    margin-right: 30px;
+    display: flex;
+    list-style: none;
+    gap:18px;
+}
+
+.navbar .nav-items a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.08rem;
+    font-weight: 600;
+    transition: 0.4s ease;
+}
+
+.nav-items a.active{
+    color: #88a9f0;
+      
+}
