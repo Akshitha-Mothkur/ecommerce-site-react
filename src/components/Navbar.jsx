@@ -10,8 +10,9 @@ function Navbar(){
             <div className="nav-items">
                 <ul>
                     <li><NavLink to={'/'}>Home</NavLink></li>
-                    <li><NavLink to={'/fasapp'}>Fashion&apperal</NavLink></li>
-                    <li><NavLink to={'/about'}>About</NavLink></li>
+                    <li><NavLink to={'/fasapp'}>Fashion</NavLink></li>
+                    <li><NavLink to={'/beauty'}>Beauty</NavLink></li>
+                    <li><NavLink to={'/electronics'}>Electronics & gadets</NavLink></li>
                 </ul>
             </div>
         </div>

@@ -2,23 +2,18 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import './Home.css'
 
-function Home() {
+function Beauty() {
 
     const [data,setData]=useState([])
     useEffect(()=>{
         axios.get("https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/products.json")
-        .then(res=>setData(res.data))
+        .then(res=>setData(res.data.filter(product => product.category === "Beauty & Personal Care")))
     },[])
-console.log(data)
+ 
 return(
     <>
-    <div className="hero">
-        <marquee behavior="" direction="right">Flat 50% off on Beauty and Fashion !!! Don't miss the deal</marquee>
-    <img src="https://static.vecteezy.com/system/resources/previews/001/894/794/non_2x/a-man-and-a-woman-buy-things-in-the-online-store-vector.jpg" alt="banner" width="1000px" height="520px" />
-    
     <div className="outer">
-        
-                {data.map((obj)=>{
+        {data.map((obj)=>{
             return(
                 
                 <div className="item-card">
@@ -32,9 +27,9 @@ return(
                 </div>
             )
         })}
-    </div></div>
+    </div>
     </>
 )
 }
 
-export default Home;
+export default Beauty;

@@ -9,7 +9,7 @@ function FashionApparel() {
         axios.get("https://kolzsticks.github.io/Free-Ecommerce-Products-Api/main/products.json")
         .then(res=>setData(res.data.filter(product => product.category === "Fashion & Apparel")))
     },[])
-console.log(data)
+ 
 return(
     <>
     <div className="outer">
