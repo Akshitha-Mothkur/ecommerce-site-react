@@ -12,7 +12,9 @@
     font-size: 1.2rem;
     margin-left:30px
 }
-
+.navbar .webname h2 span{
+    color:  #f98960;
+}
 .navbar .nav-items ul{
     margin-right: 30px;
     display: flex;

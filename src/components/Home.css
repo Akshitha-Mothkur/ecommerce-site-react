@@ -19,5 +19,16 @@
         border: 2px solid #5c8af3;
     }
 }
+.item-card button{
+    padding: 12px;
+    background-color: #f98960;
+    border: none;
+    border-radius: 8px;
+    transition: 0.4s ease;
 
+    &:hover{
+        transform: scale(1.05);
+        background-color: #f85e26;
+    }
+}
 

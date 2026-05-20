@@ -21,6 +21,7 @@ return(
                     <h3>{obj.name}</h3>
                     <h4>₹{obj.priceCents}</h4>
                     <h5>⭐{obj.rating.stars}</h5>
+                    <button>Add to cart</button>
 
 
                 </div>

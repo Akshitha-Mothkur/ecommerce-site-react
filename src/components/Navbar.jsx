@@ -5,7 +5,7 @@ function Navbar(){
     return(
         <div className="navbar">
             <div className="webname">
-                <h2>The Shopping<span>World</span></h2>
+                <h2>The Shopping <span>World</span></h2>
             </div>
             <div className="nav-items">
                 <ul>
